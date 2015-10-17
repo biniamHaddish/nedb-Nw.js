@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Database Test</title>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jwerty.js"></script> 
+	<script type="text/javascript" src="db.js"></script>
+	<!-- custome Javascript -->
+	<script type="text/javascript">
+      $(document).ready(function() {
+		/*jwerty.key('enter',function  () {
+        	var searchQuery = $('#word_search').val();
+
+        if (searchQuery != ""){
+         
+        }
+        }, '#word_search');
+
+	*/
+	$('#suggestion').html('testing Jquery');
+		});
+
+	</script>
+</head>
+<body style="background-color:grey">
+<form>
+<input id="word_search" type="text">
+</form>
+<script type="text/javascript">
+var k = getAllIteams('A/a');
+	document.write(k);
+</script>
+<div id="suggestion" style="background-color:red;">
+
+</div>
+<div id="definition"></div>
+</body>
+</html>
