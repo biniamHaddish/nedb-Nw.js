@@ -1,0 +1,72 @@
+{
+    "app_name": "Nwkit", 
+    "nodejs": true, 
+    "additional_trust_anchors": "", 
+    "inject-js-end": "", 
+    "node-remote": "", 
+    "keywords": [], 
+    "devDependencies": {
+        "nw-builder": "^2.0.2"
+    }, 
+    "author": "biniam haddish", 
+    "user-agent": "", 
+    "window": {
+        "fullscreen": false, 
+        "height": 480, 
+        "resizable": false, 
+        "title": "Nwkit", 
+        "always-on-top": false, 
+        "frame": true, 
+        "show": true, 
+        "kiosk": false, 
+        "kiosk_emulation": false, 
+        "exe_icon": "", 
+        "visible": true, 
+        "as_desktop": false, 
+        "toolbar": false, 
+        "position": "", 
+        "show_in_taskbar": true, 
+        "mac_icon": "", 
+        "width": 640, 
+        "transparent": false, 
+        "icon": ""
+    }, 
+    "version": "1.0.0", 
+    "inject-js-start": "", 
+    "main": "index.html", 
+    "chromium-args": "", 
+    "webexe_settings": {
+        "linux-x32": false, 
+        "export_dir": "output", 
+        "windows-x64": true, 
+        "download_dir": "C:\\Users\\Biniam\\Desktop", 
+        "nw_compression_level": 0, 
+        "mac-x32": false, 
+        "windows-x32": false, 
+        "mac-x64": false, 
+        "nw_version": "0.12.3", 
+        "force_download": false, 
+        "linux-x64": false
+    }, 
+    "description": "", 
+    "dependencies": {
+        "crypto-js": "^3.1.5", 
+        "path": "^0.12.7", 
+        "q": "^1.4.1", 
+        "nedb": "^1.2.1"
+    }, 
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }, 
+    "webkit": {
+        "page-cache": false, 
+        "java": false, 
+        "plugin": false
+    }, 
+    "js-flags": "", 
+    "name": "dic", 
+    "license": "ISC", 
+    "single-instance": true, 
+    "snapshot": "", 
+    "node-main": "index.html"
+}
